@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Trigger.unity
+- path: Assets/Scenes/Walk Run for Mr. Penguin.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

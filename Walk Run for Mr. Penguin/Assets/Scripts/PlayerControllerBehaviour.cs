@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
-
+[RequireComponent(typeof(CharacterController))]
 public class PlayerControllerBehaviour : MonoBehaviour
 {
     public CharacterController controls;
@@ -17,6 +17,7 @@ public class PlayerControllerBehaviour : MonoBehaviour
         normalSpeed = 10f,
         jumpCount,
         jumpForce = 5f;
+    
         
 
     public FloatData playerJumpCount; 
@@ -32,7 +33,7 @@ public class PlayerControllerBehaviour : MonoBehaviour
         
     }
     
-    void Update()
+    private void Update()
     {
         yVar += gravity * Time.deltaTime;
         

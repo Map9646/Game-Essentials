@@ -20,7 +20,8 @@ public class TriggerBehaviour : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        gcolor.material.color = newColor; 
+        gcolor.material.color = newColor;
+        
     }
 
     private void OnTriggerExit(Collider other)

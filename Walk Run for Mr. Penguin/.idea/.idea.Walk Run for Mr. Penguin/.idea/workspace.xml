@@ -7,17 +7,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovementBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerControllerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ImageBehaviour.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1iFPyVnukg5ylmqHmCMw8qNbV5t" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,6 +83,8 @@
       <workItem from="1602103591373" duration="1427000" />
       <workItem from="1602376126156" duration="4843000" />
       <workItem from="1602536609638" duration="2301000" />
+      <workItem from="1603327096915" duration="3324000" />
+      <workItem from="1603557251979" duration="31383000" />
     </task>
     <servers />
   </component>

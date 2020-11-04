@@ -50,37 +50,43 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
+     <Compile Include="Assets\Scripts\TriggerBehaviour.cs" />
      <Compile Include="Assets\Scripts\PlayerControllerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Vector3Data.cs" />
      <Compile Include="Assets\Scripts\JumpBehaviour.cs" />
      <Compile Include="Assets\Scripts\FloatData.cs" />
      <Compile Include="Assets\Scripts\CharacterMovementBehaviour.cs" />
-     <Compile Include="Assets\Scripts\TriggerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\PlayerShooting.cs" />
+     <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\ImageBehaviour.cs" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VisualStudio.Editor">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/Megan Petersen/Desktop/Walk Run for Mr. Penguin/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/Walk Run for Mr. Penguin/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2020.1.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>

@@ -8,15 +8,16 @@ public class CharacterMovementBehaviour : MonoBehaviour
     public float moveSpeed = 20f;
     public float gravity = -9.18f;
     private float yVar;
-    public Vector3 movement; 
+    public Vector3 movement;
+    
     void Start()
     {
         rBody = GetComponent<Rigidbody>();
     }
     
-    void FixedUpdate()
+    private void Update()
     {
-        float vInput = moveSpeed * (Input.GetAxis("Vertical") * Time.fixedDeltaTime);
+        float vInput = moveSpeed * (Input.GetAxis("Vertical") * Time.deltaTime);
         movement.Set(vInput, yVar, 0);
 
         float hInput = moveSpeed * (Input.GetAxis("Horizontal")*Time.deltaTime);
@@ -31,7 +32,7 @@ public class CharacterMovementBehaviour : MonoBehaviour
         }
         
         movement = transform.TransformDirection(movement);
-        rBody.MovePosition(movement*Time.fixedDeltaTime);
+        rBody.MovePosition(movement*Time.deltaTime);
         
     }
 }
