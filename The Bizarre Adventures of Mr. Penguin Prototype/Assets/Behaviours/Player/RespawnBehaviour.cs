@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -35,13 +36,20 @@ public class RespawnBehaviour : MonoBehaviour
             health.value = 100;
             controls.enabled = true; 
         }
-            
-        
 
     }
 
-    
-    
-    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CompareTag("Trigger"))
+        {
+            transform.position = currentSpawnPoint.value; 
+        }
+
+        if (CompareTag("Trigger 2"))
+        {
+            transform.position = currentSpawnPoint.value; 
+        }
+    }
 }
     

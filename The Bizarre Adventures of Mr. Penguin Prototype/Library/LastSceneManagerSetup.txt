@@ -1,5 +1,5 @@
 sceneSetups:
-- path: C:/Users/Megan Petersen/Desktop/Scripting 2/Scripting 2 Game/Assets/Scenes/SampleScene.unity
+- path: Assets/Scenes/Enviornment of Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

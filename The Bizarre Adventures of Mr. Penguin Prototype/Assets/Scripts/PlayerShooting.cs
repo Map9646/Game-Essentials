@@ -1,41 +1,61 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net;
+using System.Runtime.ExceptionServices;
 using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-    public int ammoCount = 20;
-    public int maxAmmo = 20; 
+    public int ammo = 10;
+    public int maxAmmo = 10; 
     public GameObject prefab;
-    private float bulletForce;
     public Transform instancer;
-    public WaitForSeconds reloadTime;
+    public float reloadTime;
+    public WaitForFixedUpdate wffu = new WaitForFixedUpdate();
     
     private void Start()
     {
-        reloadTime = new WaitForSeconds(2f);
-        ammoCount = maxAmmo; 
+        ammo = maxAmmo; 
     }
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && ammoCount >= 0)
+        if (Input.GetButtonDown("Fire1") && ammo > 0)
         {
-            StartCoroutine(Fire());
+            Fire();
+        }
+        
+        
+        if(Input.GetKeyDown(KeyCode.R))
+        
+        {
+            StartCoroutine(Reload());
         }
     }
 
-
-    private IEnumerator Fire()
+    private void Fire()
     {
         Instantiate(prefab, instancer.position, instancer.rotation);
-        ammoCount--;
+        ammo--;
 
-        if (ammoCount == 0) yield break; 
+        if (ammo <= 0)
         {
-            yield return reloadTime;
-            ammoCount = maxAmmo;
+            StartCoroutine(Reload());
         }
+    }
+
+    private IEnumerator Reload()
+    {
+        
+        var CountDown = reloadTime;
+        while (CountDown > 0)
+        {
+            yield return wffu;
+            CountDown = -0.1f; 
+        }
+
+        ammo = maxAmmo;
+        
     }
 }

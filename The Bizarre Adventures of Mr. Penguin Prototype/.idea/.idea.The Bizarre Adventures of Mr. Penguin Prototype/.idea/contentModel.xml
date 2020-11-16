@@ -2,16 +2,47 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\Megan Petersen\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Megan Petersen\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_The Bizarre Adventures of Mr. Penguin Prototype.346380668.00" t="ExcludeRecursive" />
-    <e p="C:\Users\Megan Petersen\Desktop\Scripting 2\The Bizarre Adventures of Mr. Penguin Prototype" t="IncludeRecursive">
+    <e p="C:\Users\Megan Petersen\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_The Bizarre Adventures of Mr. Penguin Prototype.-793291834.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Megan Petersen\Desktop\Game Essentials\The Bizarre Adventures of Mr. Penguin Prototype" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Behaviours" t="Include">
+          <e p="AI" t="Include">
+            <e p="AIBehaviour.cs" t="Include" />
+            <e p="AIPatrolBehaviour.cs" t="Include" />
+          </e>
+          <e p="LookAt.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PowerUp.cs" t="Include" />
+            <e p="RespawnBehaviour.cs" t="Include" />
+          </e>
+          <e p="UI Scripts" t="Include">
+            <e p="ImageBehaviour.cs" t="Include" />
+          </e>
+        </e>
+        <e p="FloatData" t="Include">
+          <e p="FloatData.cs" t="Include" />
+        </e>
+        <e p="IntDatas" t="Include">
+          <e p="IntData.cs" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
+          <e p="Animations.cs" t="Include" />
           <e p="Behaviours" t="Include">
             <e p="CameraFollow.cs" t="Include" />
             <e p="CharacterMoverBehaviour.cs" t="Include" />
           </e>
+          <e p="BulletBehaviour.cs" t="Include" />
+          <e p="DoorBehaviour.cs" t="Include" />
+          <e p="Instancer.cs" t="Include" />
+          <e p="PlayerShooting.cs" t="Include" />
+          <e p="Puzzle.cs" t="Include" />
+          <e p="PuzzleCollectors.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
+          <e p="TriggerBehaviour.cs" t="Include" />
+        </e>
+        <e p="Vector3Data" t="Include">
+          <e p="Vector3Data.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

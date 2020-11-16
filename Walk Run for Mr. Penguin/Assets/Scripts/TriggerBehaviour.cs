@@ -6,8 +6,6 @@ using UnityEngine;
 [RequireComponent(typeof(MeshRenderer))]
 public class TriggerBehaviour : MonoBehaviour
 {
-    
-    
     public MeshRenderer gcolor;
     public Color defaultColor;
     public Color newColor; 

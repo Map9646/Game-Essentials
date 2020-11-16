@@ -11,15 +11,32 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Vector3Data/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DoorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IntDatas/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Walk Run for Mr. Penguin/Assets/Scripts/TriggerBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Behaviours/CharacterMoverBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Trigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PuzzleTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PuzzleTriggers.cs" />
+        <option value="$PROJECT_DIR$/../Walk Run for Mr. Penguin/Assets/Scripts/TriggerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/IntDatas/IntData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Vector3Data/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/Player/PowerUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/Player/RespawnBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Puzzle Collectors.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +88,8 @@
       <updated>1604027718946</updated>
       <workItem from="1604027921600" duration="2735000" />
       <workItem from="1604255414311" duration="10926000" />
+      <workItem from="1605119749717" duration="2939000" />
+      <workItem from="1605383438514" duration="22204000" />
     </task>
     <servers />
   </component>

@@ -6,7 +6,7 @@ public class PowerUp : MonoBehaviour
 {
     public FloatData health;
     public FloatData maxHealth; 
-    public float powerUpLevel = 0.1f;
+    public float powerUpLevel = 50f;
     
     private void OnTriggerEnter(Collider other)
     {
@@ -19,6 +19,8 @@ public class PowerUp : MonoBehaviour
         {
             health.value = maxHealth.value; 
         }
+        
+        
     }
 }
 

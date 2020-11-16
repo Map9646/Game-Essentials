@@ -7,6 +7,11 @@ TagManager:
   - Trigger
   - Trigger Wall to Village
   - Puzzle Cave
+  - Trigger 1
+  - Trigger 2
+  - 'Trigger 3 '
+  - 'Trigger 4 '
+  - Mr.Peppermint
   layers:
   - Default
   - TransparentFX
