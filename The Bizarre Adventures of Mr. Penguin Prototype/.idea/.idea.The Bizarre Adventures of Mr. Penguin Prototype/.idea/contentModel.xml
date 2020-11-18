@@ -34,11 +34,14 @@
           </e>
           <e p="BulletBehaviour.cs" t="Include" />
           <e p="DoorBehaviour.cs" t="Include" />
+          <e p="FriendsUIManager.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="Puzzle.cs" t="Include" />
           <e p="PuzzleCollectors.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
+          <e p="Teleporter.cs" t="Include" />
+          <e p="TransparentBehaviour.cs" t="Include" />
           <e p="TriggerBehaviour.cs" t="Include" />
         </e>
         <e p="Vector3Data" t="Include">
