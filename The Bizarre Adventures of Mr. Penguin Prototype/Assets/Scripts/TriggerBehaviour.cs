@@ -3,15 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(MeshRenderer))]
+
 public class TriggerBehaviour : MonoBehaviour
 {
-    public GameObject prefab; 
+    public GameObject prefab;
+    public Vector3Data position; 
     private void OnTriggerEnter(Collider other)
     {
-         Instantiate(prefab); 
+        if (Instantiate(prefab))
+        {
+            prefab.transform.position = position.value; 
+        }
          
-        
+
+
     }
     
     

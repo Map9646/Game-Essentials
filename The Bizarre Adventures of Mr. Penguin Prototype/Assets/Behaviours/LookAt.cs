@@ -5,19 +5,15 @@ using UnityEngine;
 public class LookAt : MonoBehaviour
 {
     public Transform lookObj;
-    
+
 
     public void Update()
     {
         transform.LookAt(lookObj);
         
-
-
-
-
-
     }
     
-
    
+
+
 }

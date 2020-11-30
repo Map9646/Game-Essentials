@@ -7,27 +7,28 @@ public class Puzzle : MonoBehaviour
     private MeshRenderer meshR;
     public Color defaultColor;
     public Color newColor;
-    private WaitForSeconds wfs;
+    //private WaitForSeconds wfs;
     public int holdTime =30;
     public IntData myCounter; 
     void Start()
     {
         meshR = GetComponent <MeshRenderer>();
         meshR.material.color = defaultColor; 
-        wfs = new WaitForSeconds(holdTime);
+        //wfs = new WaitForSeconds(holdTime);
     }
 
     private void OnTriggerEnter(Collider other)
     {
         meshR.material.color = newColor;
-        myCounter.value++; 
+        myCounter.value++;
+        
 
     }
 
-    private IEnumerator OnTriggerExit(Collider other)
+    private void OnTriggerExit (Collider other)
     {
-        yield return wfs; 
-        meshR.material.color = defaultColor;
+        //yield return wfs; 
+        meshR.material.color = newColor;
         
         
     }

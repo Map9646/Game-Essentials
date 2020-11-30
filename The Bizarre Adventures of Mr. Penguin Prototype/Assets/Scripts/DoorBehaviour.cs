@@ -14,9 +14,10 @@ public class DoorBehaviour : MonoBehaviour
     }
     private void Update()
     {
-        if (myCounter.value >= 4)
+        if (myCounter.value >= 6)
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
 
         //if (myCounter.value < 4)

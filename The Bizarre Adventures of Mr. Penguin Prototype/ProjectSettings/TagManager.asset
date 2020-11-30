@@ -14,6 +14,11 @@ TagManager:
   - Mr.Peppermint
   - Little Gumdrop
   - 'Poppy '
+  - Mr. P House
+  - Enemy
+  - Friend
+  - FinalTrigger
+  - SavePoppyTrigger
   layers:
   - Default
   - TransparentFX

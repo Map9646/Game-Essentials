@@ -51,14 +51,17 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\IntDatas\IntData.cs" />
-     <Compile Include="Assets\Scripts\Behaviours\CameraFollow.cs" />
+     <Compile Include="Assets\Behaviours\CameraFollow.cs" />
      <Compile Include="Assets\FloatData\FloatData.cs" />
      <Compile Include="Assets\Scripts\BulletBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Teleporter.cs" />
      <Compile Include="Assets\Vector3Data\Vector3Data.cs" />
      <Compile Include="Assets\Behaviours\AI\AIBehaviour.cs" />
+     <Compile Include="Assets\Scripts\TransparentBehaviour.cs" />
      <Compile Include="Assets\Behaviours\Player\RespawnBehaviour.cs" />
      <Compile Include="Assets\Scripts\SceneManager.cs" />
      <Compile Include="Assets\Scripts\TriggerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\FriendsUIManager.cs" />
      <Compile Include="Assets\Behaviours\AI\AIPatrolBehaviour.cs" />
      <Compile Include="Assets\Scripts\PuzzleCollectors.cs" />
      <Compile Include="Assets\Behaviours\UI Scripts\ImageBehaviour.cs" />
@@ -70,9 +73,15 @@
      <Compile Include="Assets\Scripts\Puzzle.cs" />
      <Compile Include="Assets\Scripts\DoorBehaviour.cs" />
      <Compile Include="Assets\Scripts\Instancer.cs" />
-     <Compile Include="Assets\Scripts\FriendsUIManager.cs" />
-     <Compile Include="Assets\Scripts\Teleporter.cs" />
-     <Compile Include="Assets\Scripts\TransparentBehaviour.cs" />
+     <Compile Include="Assets\Scripts\FriendsTriggerBehaviour.cs" />
+     <Compile Include="Assets\Behaviours\AI\AIVillageBehaviour.cs" />
+     <Compile Include="Assets\Behaviours\AI\EnemyAttackBehaviour.cs" />
+     <Compile Include="Assets\Scripts\FinalBossBahviour.cs" />
+     <Compile Include="Assets\Scripts\EnemyFinalPuzzle.cs" />
+     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
+     <Compile Include="Assets\Scripts\TriggersFinalPuzzle.cs" />
+     <Compile Include="Assets\Scripts\TextUIManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/The Bizarre Adventures of Mr. Penguin Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

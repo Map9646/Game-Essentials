@@ -6,12 +6,15 @@ using UnityEngine;
 public class TransparentBehaviour : MonoBehaviour
 {
     public Material newMaterial;
-    public Material defaultMaterial; 
+    public Material defaultMaterial;  
     private MeshRenderer meshR; 
     void Start()
     {
         meshR = GetComponent<MeshRenderer>();
-        meshR.material = defaultMaterial; 
+        meshR.material = defaultMaterial;
+        
+
+        
     }
 
     private void OnTriggerEnter(Collider other)
@@ -22,6 +25,10 @@ public class TransparentBehaviour : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         meshR.material = defaultMaterial;
+
+        
+
+
     }
 }
 

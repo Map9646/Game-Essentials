@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c7dcb30e745b814db46e31ac0e0ba8d, type: 3}
   m_Name: Puzzle Countdown
   m_EditorClassIdentifier: 
-  value: 10
+  value: 0

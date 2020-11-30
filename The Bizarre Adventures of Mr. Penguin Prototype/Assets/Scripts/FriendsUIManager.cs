@@ -7,9 +7,17 @@ using UnityEngine.UI;
 
 public class FriendsUIManager : MonoBehaviour
 {
-    private Image mrPeppermint; 
-    private void Update()
+    [SerializeField] private Image friendImage;
+     
+
+    private void OnTriggerEnter(Collider other)
     {
+        if(other.CompareTag("Player"))
+        {
+            friendImage.enabled = true;
+            
+        }
+        
         
     }
 }

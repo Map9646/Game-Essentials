@@ -1,9 +1,9 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.AI;
+using UnityEngine.AI; 
 
+[RequireComponent(typeof(NavMeshAgent))]
 public class AIBehaviour : MonoBehaviour
 {
     private WaitForFixedUpdate wfs = new WaitForFixedUpdate();
@@ -55,6 +55,4 @@ public class AIBehaviour : MonoBehaviour
         }
     } 
 }
-
-    
-
+//!(agent.remainingDistance < 0.5f))

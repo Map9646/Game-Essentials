@@ -5,15 +5,15 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour
 {
     public FloatData health;
-    public FloatData maxHealth; 
-    public float powerUpLevel = 50f;
+    public FloatData maxHealth;
+    public float powerUpLevel;
     
     private void OnTriggerEnter(Collider other)
     {
         health.value += powerUpLevel; 
     }
     
-    private void Update()
+        private void Update()
     {
         if (health.value >= 100)
         {
