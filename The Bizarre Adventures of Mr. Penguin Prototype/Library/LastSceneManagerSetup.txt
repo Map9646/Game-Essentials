@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/The Puzzle and Boss Room.unity
+- path: Assets/Scenes/Enviornment of Game.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

@@ -19,6 +19,8 @@ TagManager:
   - Friend
   - FinalTrigger
   - SavePoppyTrigger
+  - enemyHealth
+  - playerHealth
   layers:
   - Default
   - TransparentFX

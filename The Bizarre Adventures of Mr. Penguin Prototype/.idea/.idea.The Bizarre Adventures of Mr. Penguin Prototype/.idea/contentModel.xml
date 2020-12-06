@@ -14,10 +14,14 @@
             <e p="EnemyAttackBehaviour.cs" t="Include" />
           </e>
           <e p="CameraFollow.cs" t="Include" />
+          <e p="FloatBehaviour.cs" t="Include" />
+          <e p="FloatContainer.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="Player" t="Include">
+            <e p="MonoEventsBehaviour.cs" t="Include" />
             <e p="PowerUp.cs" t="Include" />
             <e p="RespawnBehaviour.cs" t="Include" />
+            <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="UI Scripts" t="Include">
             <e p="ImageBehaviour.cs" t="Include" />
@@ -25,6 +29,13 @@
         </e>
         <e p="FloatData" t="Include">
           <e p="FloatData.cs" t="Include" />
+        </e>
+        <e p="Game Actions" t="Include">
+          <e p="GameActionHandler.cs" t="Include" />
+          <e p="GameActions.cs" t="Include" />
+        </e>
+        <e p="ID's" t="Include">
+          <e p="ID.cs" t="Include" />
         </e>
         <e p="IntDatas" t="Include">
           <e p="IntData.cs" t="Include" />
