@@ -9,7 +9,7 @@ public class SpawnPoint : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        currentSpawnPoint.value = transform.position; 
+        currentSpawnPoint.value = other.transform.position; 
     }
 
 }

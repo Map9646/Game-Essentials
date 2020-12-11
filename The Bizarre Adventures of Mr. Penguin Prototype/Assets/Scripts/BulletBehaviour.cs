@@ -14,7 +14,7 @@ public class BulletBehaviour : MonoBehaviour
     {
         rBody = GetComponent<Rigidbody>();
         
-        rBody.AddRelativeForce(Vector3.right * bulletForce);
+        rBody.AddRelativeForce(Vector3.forward * bulletForce);
         //yield break;
         //yield return new WaitForSeconds(lifeTime);
         //Destroy(gameObject);

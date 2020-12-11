@@ -12,7 +12,8 @@ public class PlayerShooting : MonoBehaviour
     public GameObject prefab;
     public Transform instancer;
     public float reloadTime;
-    public WaitForFixedUpdate wffu = new WaitForFixedUpdate();
+    public WaitForFixedUpdate wfs = new WaitForFixedUpdate();
+    private bool canShoot; 
     
     private void Start()
     {
@@ -21,7 +22,7 @@ public class PlayerShooting : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && ammo > 0)
+        if (Input.GetButtonDown("Fire1") && ammo > 0 && canShoot)
         {
             Fire();
         }
@@ -39,7 +40,7 @@ public class PlayerShooting : MonoBehaviour
         Instantiate(prefab, instancer.position, instancer.rotation);
         ammo--;
 
-        if (ammo <= 0)
+        if (ammo == 0)
         {
             StartCoroutine(Reload());
         }
@@ -47,15 +48,16 @@ public class PlayerShooting : MonoBehaviour
 
     private IEnumerator Reload()
     {
+        canShoot = false; 
         
-        var CountDown = reloadTime;
-        while (CountDown > 0)
+        var countDown = reloadTime;
+        while (countDown > 0)
         {
-            yield return wffu;
-            CountDown = -0.1f; 
+            yield return wfs;
+            countDown = .01f; 
         }
 
         ammo = maxAmmo;
-        
+        canShoot = true; 
     }
 }

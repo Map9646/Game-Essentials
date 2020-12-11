@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7617197871363810166}
   - component: {fileID: 7617197871363810167}
   - component: {fileID: -2433495199214864670}
-  - component: {fileID: 7262542548138351272}
+  - component: {fileID: 8128589827231465983}
   m_Layer: 0
   m_Name: 'Mr. Peppermint '
   m_TagString: Friend
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16a977a38bbe60042a4ea8a8f2413648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7262542548138351272
+--- !u!114 &8128589827231465983
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

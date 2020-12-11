@@ -6,6 +6,7 @@ using UnityEngine;
 public class DoorBehaviour : MonoBehaviour
 {
     public IntData myCounter;
+    
 
 
     private void Start()
@@ -18,6 +19,13 @@ public class DoorBehaviour : MonoBehaviour
         {
             //Destroy(gameObject);
             gameObject.SetActive(false);
+            
+            
+        }
+
+        if (myCounter.value >= 12)
+        {
+            gameObject.SetActive(true);
         }
 
         //if (myCounter.value < 4)

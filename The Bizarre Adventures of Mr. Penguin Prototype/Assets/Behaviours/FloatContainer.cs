@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class FloatContainer : MonoBehaviour
 {
-    public float value = -0.1f; 
+    public float value; 
 }

@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public class FloatBehaviour : MonoBehaviour
 {
-    public float value = 1f;
-    public string otherTag = "enemyHealth";
+    public float health; 
+    public string otherTag = "Player";
     public UnityEvent triggerEnterEvent, atZeroEvent;
 
     private void Start()
@@ -25,9 +25,9 @@ public class FloatBehaviour : MonoBehaviour
 
     public void UpdateValue(float number)
     {
-        value += number;
+        health += number;
         
-        if (value <= 0)
+        if (health <= 0)
         {
             atZeroEvent.Invoke();
         }

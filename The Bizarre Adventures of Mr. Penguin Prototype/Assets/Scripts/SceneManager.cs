@@ -6,24 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class SceneManager : MonoBehaviour
 {
+    public int levelToLoad;
 
-    
-    
     private void OnTriggerEnter(Collider other)
     {
         
+        if (gameObject.CompareTag("FinalTrigger"))
         {
-           
-
-            if (gameObject.CompareTag("Puzzle Cave"))
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("The Puzzle and Boss Room");
-            }
-
-            if (gameObject.CompareTag("FinalTrigger"))
-            {
-                UnityEngine.SceneManagement.SceneManager.LoadScene("Ending");
-            }
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Ending");
         }
+
     }
+
+
+
+    public void LoadLevel()
+        {
+        
+            UnityEngine.SceneManagement.SceneManager.LoadScene(levelToLoad);
+        }
+
 }

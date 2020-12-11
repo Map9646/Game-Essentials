@@ -9,14 +9,22 @@ public class ImageBehaviour : MonoBehaviour
 {
     public Image healthBar;
 
-    public FloatData health; 
+    public FloatData health;
+    private float tempValue;
     
-    
-    
+
+
     void Start()
     {
         healthBar = GetComponent<Image>();
+        tempValue = health.value;
+        
     }
+
+    //public void UpdateFillAmount()
+    //{
+        //StartCoroutine(OnUpdateFillAmount());
+    //}
 
     // Update is called once per frame
     void Update()

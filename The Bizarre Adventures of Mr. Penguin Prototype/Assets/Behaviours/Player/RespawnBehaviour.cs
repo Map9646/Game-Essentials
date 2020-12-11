@@ -16,31 +16,35 @@ public class RespawnBehaviour : MonoBehaviour
     private void Start()
     {
         controls = GetComponent<CharacterController>();
-        health.value = 100f;
+        health.value = 100;
         transform.position = currentSpawnPoint.value; 
     }
     
-    //private void OnEnable()
-    //{
-        //transform.position = currentSpawnPoint.value;
-        //health.value = 100f; 
-    //}
-    private void Update()
+    private void OnEnable()
     {
-        
-        if (health.value <= 0)
+        //transform.position = currentSpawnPoint.value;
+        health.value = 100f; 
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (CompareTag("Trigger"))
         {
-            controls.enabled = false;
             transform.position = currentSpawnPoint.value; 
         }
-    
-        if (transform.position == currentSpawnPoint.value)
-        {
-            health.value = 100;
-            controls.enabled = true; 
-        }
+    }
 
+
+    public void Teleport()
+    {
         
+        
+            controls.enabled = false;
+            gameObject.transform.position = currentSpawnPoint.value;
+            controls.enabled = true;
+
+
+
+
 
     }
     

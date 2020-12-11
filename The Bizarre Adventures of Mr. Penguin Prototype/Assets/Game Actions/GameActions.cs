@@ -8,7 +8,7 @@ public class GameActions : ScriptableObject
 {
    public UnityAction action;
    public UnityAction<Transform> transformAction;
-
+   
 
    public void Raise()
    {
@@ -20,4 +20,6 @@ public class GameActions : ScriptableObject
       Debug.Log(obj);
       transformAction(obj);
    }
+   
+   
 }

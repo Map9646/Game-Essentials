@@ -13,9 +13,11 @@
             <e p="AIVillageBehaviour.cs" t="Include" />
             <e p="EnemyAttackBehaviour.cs" t="Include" />
           </e>
+          <e p="AttachOnTrigger.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="FloatBehaviour.cs" t="Include" />
           <e p="FloatContainer.cs" t="Include" />
+          <e p="IDHolder.cs" t="Include" />
           <e p="LookAt.cs" t="Include" />
           <e p="Player" t="Include">
             <e p="MonoEventsBehaviour.cs" t="Include" />
@@ -24,6 +26,7 @@
             <e p="TriggerEvents.cs" t="Include" />
           </e>
           <e p="UI Scripts" t="Include">
+            <e p="EnemyHealthImage.cs" t="Include" />
             <e p="ImageBehaviour.cs" t="Include" />
           </e>
         </e>
@@ -53,9 +56,11 @@
           <e p="FriendsTriggerBehaviour.cs" t="Include" />
           <e p="FriendsUIManager.cs" t="Include" />
           <e p="Instancer.cs" t="Include" />
+          <e p="LedgeBehaviour.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="Puzzle.cs" t="Include" />
           <e p="PuzzleCollectors.cs" t="Include" />
+          <e p="RespawnPlayer.cs" t="Include" />
           <e p="SceneManager.cs" t="Include" />
           <e p="SpawnPoint.cs" t="Include" />
           <e p="Teleporter.cs" t="Include" />
@@ -63,6 +68,9 @@
           <e p="TransparentBehaviour.cs" t="Include" />
           <e p="TriggerBehaviour.cs" t="Include" />
           <e p="TriggersFinalPuzzle.cs" t="Include" />
+        </e>
+        <e p="StringLists" t="Include">
+          <e p="StringData.cs" t="Include" />
         </e>
         <e p="Vector3Data" t="Include">
           <e p="Vector3Data.cs" t="Include" />
