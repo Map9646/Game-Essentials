@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - CharacterMoverBehaviour
     - ColorBehaviour
     - DoorBehaviour
+    - EnemyColorBehaviour
     - EnemyFinalPuzzle
     - ExitGameManager
     - FloatBehaviour
@@ -19,7 +20,6 @@ ScriptsOnlyBuild:
     - IntData
     - LedgeBehaviour
     - MonoEventsBehaviour
-    - PowerUp
     - Puzzle
     - PuzzleCollectors
     - RespawnBehaviour
@@ -32,7 +32,6 @@ ScriptsOnlyBuild:
     - TriggersFinalPuzzle
     - Vector3Data
     Unity.Rider.Editor.dll:
-    - Packages.Rider.Editor.RiderScriptEditorData
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -80,9 +79,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12874}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -183,27 +182,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13010}
     - Class: 114
-      Script: {instanceID: 13172}
-    - Class: 114
       Script: {instanceID: 13186}
     - Class: 114
-      Script: {instanceID: 13322}
-    - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13324}
     - Class: 114
       Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13570}
+      Script: {instanceID: 13430}
     - Class: 114
-      Script: {instanceID: 13694}
+      Script: {instanceID: 13572}
     - Class: 114
-      Script: {instanceID: 13730}
+      Script: {instanceID: 13696}
     - Class: 114
-      Script: {instanceID: 13816}
+      Script: {instanceID: 13732}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13818}
     - Class: 114
-      Script: {instanceID: 13888}
+      Script: {instanceID: 13834}
+    - Class: 114
+      Script: {instanceID: 13890}
+    - Class: 114
+      Script: {instanceID: 19386}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -268,11 +267,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13284}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 46608}
+      Script: {instanceID: 13834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -323,9 +322,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12904}
     - Class: 114
-      Script: {instanceID: 13426}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13832}
+      Script: {instanceID: 13834}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -813,6 +812,12 @@ ScriptsOnlyBuild:
     className: TimelineAsset
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ExitGameManager
+  - hash:
+      serializedVersion: 2
       Hash: 479f702f8aef25805fa964236f2d0eed
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1047,16 +1052,15 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 71f434158c2efa1ec2fe1049c0727059
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: ExitGameManager
+    className: EnemyColorBehaviour
   platform: 5
   scenePathNames:
   - Assets/Scenes/Main Menu.unity
   - Assets/Scenes/UVU Digital Media Scene.unity
   - Assets/Scenes/Enviornment of Game.unity
   - Assets/Scenes/Ending.unity
-  playerPath: C:/Users/Megan Petersen/Desktop/Game Essentials/The Bizarre Adventures
-    of Mr. Penguin Prototype/My game Build/The Bizarre Adventures of Mr. Penguin
-    Prototype.exe
+  playerPath: C:/Users/jonah/Desktop/Game-Essentials/The Bizarre Adventures of Mr.
+    Penguin Prototype/My game Build/The Bizarre Adventures of Mr. Penguin Prototype.exe
