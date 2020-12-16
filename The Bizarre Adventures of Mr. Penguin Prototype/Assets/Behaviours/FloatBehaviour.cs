@@ -1,18 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events; 
+using UnityEngine.UI; 
 
+[RequireComponent(typeof(Image))]
 public class FloatBehaviour : MonoBehaviour
 {
     public float health; 
     public string otherTag = "Player";
     public UnityEvent triggerEnterEvent, atZeroEvent;
 
-    private void Start()
-    {
-        //value = data.value;
-    }
+    
 
     private void OnTriggerEnter(Collider other)
     {
@@ -23,6 +23,8 @@ public class FloatBehaviour : MonoBehaviour
         triggerEnterEvent.Invoke();
     }
 
+   
+
     public void UpdateValue(float number)
     {
         health += number;
@@ -31,5 +33,9 @@ public class FloatBehaviour : MonoBehaviour
         {
             atZeroEvent.Invoke();
         }
+        
+        
     }
+
+    
 }

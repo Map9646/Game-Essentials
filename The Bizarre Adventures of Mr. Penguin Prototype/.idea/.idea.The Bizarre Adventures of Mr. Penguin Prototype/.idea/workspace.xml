@@ -36,7 +36,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FinalBossBahviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/IntDatas/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ColorBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FriendsTriggerBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Behaviours/UI Scripts/UIEnemyManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyFinalPuzzle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Behaviours/IDHolder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -62,7 +64,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyFinalPuzzle.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/PowerUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyHealth.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FriendsTriggerBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FriendsUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggersFinalPuzzle.cs" />
@@ -81,14 +82,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RespawnPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/Player/RespawnBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BulletBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/Main Menu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Behaviours/FloatBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/UIEnemyManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/ImageBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Behaviours/UI Scripts/EnemyHealthImage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Behaviours/FloatBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FriendsTriggerBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LedgeBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ColorBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ExitGameManager.cs" />
       </list>
     </option>
   </component>
@@ -112,6 +117,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/My game Build\The Bizarre Adventures of Mr. Penguin Prototype.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Megan Petersen\Desktop\Game Essentials\The Bizarre Adventures of Mr. Penguin Prototype\My game Build" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -146,6 +159,8 @@
       <workItem from="1606397037071" duration="32935000" />
       <workItem from="1607007641427" duration="184000" />
       <workItem from="1607180554506" duration="36972000" />
+      <workItem from="1607793978654" duration="14439000" />
+      <workItem from="1608041356251" duration="2078000" />
     </task>
     <servers />
   </component>

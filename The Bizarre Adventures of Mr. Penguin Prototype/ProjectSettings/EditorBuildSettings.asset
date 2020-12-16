@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: e4f765b5a693c4d47ba6a06cdf442c5a
   - enabled: 1
+    path: Assets/Scenes/UVU Digital Media Scene.unity
+    guid: 5ee857e4548d68d4ea9ca45cfc4ceecd
+  - enabled: 1
     path: Assets/Scenes/Enviornment of Game.unity
     guid: 72d0a5ffa5d0e904d8b22337ccdc7c0a
   - enabled: 1

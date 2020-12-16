@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI; 
@@ -7,7 +8,7 @@ public class EnemyHealthImage : MonoBehaviour
 {
     public Image healthBar;
 
-    public FloatData health;
+    public float health;
     private float tempValue;
     
 
@@ -15,8 +16,11 @@ public class EnemyHealthImage : MonoBehaviour
     void Start()
     {
         healthBar = GetComponent<Image>();
-        tempValue = health.value;
         
+
+
+
+
     }
 
     //public void UpdateFillAmount()
@@ -25,10 +29,13 @@ public class EnemyHealthImage : MonoBehaviour
     //}
 
     // Update is called once per frame
+    
+    
     void Update()
     {
-        healthBar.fillAmount = health.value / 100;
-        healthBar.color = Color.green;
+
+        healthBar.fillAmount = health / 100; 
+        healthBar.color = Color.red;
 
         //if (health.value >= 40)
         //{
@@ -41,4 +48,6 @@ public class EnemyHealthImage : MonoBehaviour
         //healthBar.color = Color.red; 
         //}
     }
+
+    
 }

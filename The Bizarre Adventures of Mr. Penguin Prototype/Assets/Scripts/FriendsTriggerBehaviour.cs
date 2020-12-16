@@ -15,6 +15,8 @@ public class FriendsTriggerBehaviour : MonoBehaviour
             gameObject.SetActive(false);
         }
 
+       
+
         
        
     }

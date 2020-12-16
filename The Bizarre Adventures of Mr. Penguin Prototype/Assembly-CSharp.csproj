@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\TextUIManager.cs" />
      <Compile Include="Assets\Scripts\FriendsUIManager.cs" />
      <Compile Include="Assets\Behaviours\AI\AIPatrolBehaviour.cs" />
+     <Compile Include="Assets\Behaviours\UI Scripts\UIEnemyManager.cs" />
      <Compile Include="Assets\Scripts\PuzzleCollectors.cs" />
      <Compile Include="Assets\Behaviours\FloatContainer.cs" />
      <Compile Include="Assets\Behaviours\UI Scripts\ImageBehaviour.cs" />
@@ -82,6 +83,7 @@
      <Compile Include="Assets\Behaviours\Player\MonoEventsBehaviour.cs" />
      <Compile Include="Assets\Behaviours\AI\AIVillageBehaviour.cs" />
      <Compile Include="Assets\Scripts\Animations.cs" />
+     <Compile Include="Assets\Scripts\ColorBehaviour.cs" />
      <Compile Include="Assets\Scripts\RespawnPlayer.cs" />
      <Compile Include="Assets\Behaviours\AttachOnTrigger.cs" />
      <Compile Include="Assets\Behaviours\LookAt.cs" />
@@ -91,10 +93,11 @@
      <Compile Include="Assets\Scripts\Puzzle.cs" />
      <Compile Include="Assets\Scripts\DoorBehaviour.cs" />
      <Compile Include="Assets\Scripts\Instancer.cs" />
+     <Compile Include="Assets\Behaviours\UI Scripts\EnemyHealthImage.cs" />
      <Compile Include="Assets\Behaviours\FloatBehaviour.cs" />
      <Compile Include="Assets\Scripts\EnemyFinalPuzzle.cs" />
      <Compile Include="Assets\Scripts\SpawnPoint.cs" />
-     <Compile Include="Assets\Behaviours\UI Scripts\EnemyHealthImage.cs" />
+     <Compile Include="Assets\Scripts\ExitGameManager.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>C:/Users/Megan Petersen/Desktop/Game Essentials/The Bizarre Adventures of Mr. Penguin Prototype/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

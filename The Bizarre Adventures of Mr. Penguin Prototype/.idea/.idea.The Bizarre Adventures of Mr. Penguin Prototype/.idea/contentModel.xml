@@ -28,6 +28,7 @@
           <e p="UI Scripts" t="Include">
             <e p="EnemyHealthImage.cs" t="Include" />
             <e p="ImageBehaviour.cs" t="Include" />
+            <e p="UIEnemyManager.cs" t="Include" />
           </e>
         </e>
         <e p="FloatData" t="Include">
@@ -49,9 +50,11 @@
             <e p="CharacterMoverBehaviour.cs" t="Include" />
           </e>
           <e p="BulletBehaviour.cs" t="Include" />
+          <e p="ColorBehaviour.cs" t="Include" />
           <e p="DoorBehaviour.cs" t="Include" />
           <e p="EnemyFinalPuzzle.cs" t="Include" />
           <e p="EnemyHealth.cs" t="Include" />
+          <e p="ExitGameManager.cs" t="Include" />
           <e p="FinalBossBahviour.cs" t="Include" />
           <e p="FriendsTriggerBehaviour.cs" t="Include" />
           <e p="FriendsUIManager.cs" t="Include" />

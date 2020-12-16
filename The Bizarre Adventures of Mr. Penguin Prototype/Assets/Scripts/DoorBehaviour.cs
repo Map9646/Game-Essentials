@@ -23,11 +23,7 @@ public class DoorBehaviour : MonoBehaviour
             
         }
 
-        if (myCounter.value >= 12)
-        {
-            gameObject.SetActive(true);
-        }
-
+        
         //if (myCounter.value < 4)
         //{
             

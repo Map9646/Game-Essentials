@@ -21,6 +21,7 @@ TagManager:
   - SavePoppyTrigger
   - enemyHealth
   - playerHealth
+  - Health
   layers:
   - Default
   - TransparentFX
